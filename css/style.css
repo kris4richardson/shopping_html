@@ -46,7 +46,7 @@ ul {
 .align-items-center {
   align-items: center;
 }
-/* 
+ 
 .justify-content-center {
   justify-content: center;
 }
@@ -61,7 +61,7 @@ ul {
 
 .flex-end {
   justify-content: flex-end;
-} */
+} 
 
 .container {
   max-width: 192rem;
@@ -151,8 +151,6 @@ ul > li + li {
   height: 8.2rem;
   left: 20rem;
   top: 84.4rem;
-
-  background-color: aqua;
 }
 
 .shop-now img {
@@ -161,8 +159,8 @@ ul > li + li {
 }
 
 .shop-now-button {
-  width: 14.3rem;
-  height: 4.5rem;
+  width: 22rem;
+  height: 8.2rem;
   left: 26.5rem;
   top: 1.9rem;
 
