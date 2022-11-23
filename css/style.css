@@ -368,7 +368,21 @@ ul > li + li {
 .banner-img img {
   position: absolute;
   width: 148.3rem;
+  left: 22rem;
   top: 464rem;
+}
+
+.apps {
+  justify-content: space-between;
+  position: absolute;
+  top: 520.8rem;
+  left: 22rem;
+  width: 42.7rem;
+  height: 7.1rem;
+}
+
+.apps img {
+  width: 20.4rem;
 }
 
 /* banner-app end */
