@@ -281,6 +281,11 @@ ul > li + li {
   width: 3.2rem;
 }
 
+.arrow-pic {
+  display: flex;
+  align-items: center;
+}
+
 /* new-arrivals end */
 
 /* banner start */
@@ -325,11 +330,10 @@ ul > li + li {
 /* fav start */
 
 .fav {
-  justify-content: space-between;
   position: absolute;
   width: 172rem;
-  height: 84.7rem;
   left: 10rem;
+  height: 84.7rem;
   top: 365rem;
 }
 
@@ -352,12 +356,10 @@ ul > li + li {
 }
 
 .young-products {
-  flex-direction: row;
-  gap: 9rem;
-
+  gap: 6rem;
   position: absolute;
-  width: 164rem;
-  height: 81rem;
+  width: 172rem;
+  height: 68rem;
   top: 17rem;
 }
 
@@ -504,6 +506,10 @@ input::placeholder {
   flex-direction: column;
   width: 41.5rem;
   height: 24.8rem;
+}
+
+.fashion-text {
+  margin-bottom: 2rem;
 }
 
 .fashion-text h3 {
