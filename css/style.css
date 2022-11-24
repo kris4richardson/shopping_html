@@ -182,7 +182,7 @@ ul > li + li {
 .brands-section {
   justify-content: center;
   align-items: center;
-  width: 192rem;
+  width: 100%;
   height: 18.6rem;
   background: #ebd96b;
 }
@@ -202,7 +202,7 @@ ul > li + li {
 /* new-arrivals start */
 
 .new-arrivals {
-  justify-content: space-between;
+  justify-content: flex-start;
   position: absolute;
   width: 163.8rem;
   height: 96.7rem;
@@ -221,7 +221,6 @@ ul > li + li {
   font-weight: 900;
   font-size: 4.8rem;
   line-height: 1;
-  /* or 104% */
 
   letter-spacing: 0.06em;
 
@@ -261,7 +260,6 @@ ul > li + li {
   font-weight: 500;
   font-size: 3.2rem;
   line-height: 1.56;
-  /* or 156% */
 
   letter-spacing: -0.04em;
 
@@ -289,7 +287,7 @@ ul > li + li {
 
 .banner {
   position: absolute;
-  width: 192rem;
+  width: 100%;
   height: 97rem;
   top: 249rem;
   background-image: url("/img/banner.png");
@@ -353,8 +351,18 @@ ul > li + li {
   background-position: right 3rem;
 }
 
+.young-products {
+  flex-direction: row;
+  gap: 9rem;
+
+  position: absolute;
+  width: 164rem;
+  height: 81rem;
+  top: 17rem;
+}
+
 .young-product-size {
-  width: 105%;
+  width: 100%;
 }
 
 /* fav end */
@@ -391,7 +399,7 @@ ul > li + li {
 
 .subscribe-img {
   position: absolute;
-  width: 192rem;
+  width: 100%;
   height: 62.3rem;
   left: 0rem;
   top: 564.6rem;
@@ -421,7 +429,6 @@ ul > li + li {
 }
 
 .subscribe-form input {
-
   width: 37rem;
   height: 8rem;
   border: none;
@@ -468,7 +475,6 @@ input::placeholder {
   border: none;
 
   cursor: pointer;
-  
 }
 
 /* subscribe end */
@@ -476,13 +482,88 @@ input::placeholder {
 /* footer start */
 
 .footer {
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  width: 192rem;
+  width: 100%;
   height: 54.5rem;
-  left: 0rem;
   top: 626.9rem;
 
   background: #000000;
+}
+
+.footer-info {
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  width: 172rem;
+  height: 28rem;
+}
+
+.fashion {
+  flex-direction: column;
+  width: 41.5rem;
+  height: 24.8rem;
+}
+
+.fashion-text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  margin-bottom: 2rem;
+}
+
+.social-media {
+  justify-content: space-between;
+  flex-direction: row;
+  width: 25rem;
+}
+
+.social-media img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.h4-footer-style {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: #d9d9d9;
+}
+
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: #8e8e8e;
+}
+
+.right-menu {
+  justify-content: space-between;
+  width: 89rem;
+  height: 27.3rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 /* footer end */
